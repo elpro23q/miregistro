@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+}
+header{
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.navbar a{
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+    text-decoration: uppercase;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: #ff7f50;
+    border-bottom: 2px solid #ff7f50;
+}
+.intro{
+    margin-top: 30px;
+}
+.intro h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.intro p{
+    font-size: 1.5rem;
+}
+section{
+    padding: 60px 20px;
+    margin: 40px 0;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+.profile-img:hover{
+    transform: scale(1.1);
+}
+.carousel-container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.carousel{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-item{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+.project-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; 
+   
+}
+.project-card h3{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-card p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.project-card a{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+input, textarea{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.hia{
+     font-family: 'Arial',sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; 
+    text-align: justify;
+}
